@@ -7,6 +7,16 @@
 		],
 		"description": "Log output to console"
 	},
+	"Create a class": {
+		"prefix": "class",
+		"body": [
+			"class $1 {",
+			"$2",
+			"}",
+			"module.exports = $1;"
+		],
+		"description": "Log output to console"
+	},
 	"Console log Inspect Element": {
 		"prefix": "cins",
 		"body": [
