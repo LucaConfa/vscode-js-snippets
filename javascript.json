@@ -2,10 +2,16 @@
 	"Print to console": {
 		"prefix": "clog",
 		"body": [
-			"console.log('$1');",
-			"$2"
+			"console.log('$1');$2"
 		],
 		"description": "Log output to console"
+	},
+	"Print warning": {
+		"prefix": "cwar",
+		"body":[
+			"console.warn('$1');$2"
+		],
+		"description": "Log output to console as a warning"
 	},
 	"Create a class": {
 		"prefix": "class",
