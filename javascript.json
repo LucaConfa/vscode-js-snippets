@@ -27,9 +27,9 @@
 		"prefix": "middleware",
 		"body": [
 			"module.exports = ($1) => {",
-			"  return (req, res, next) => {",
-			"    $2",	
-			"  };",
+			"\treturn (req, res, next) => {",
+			"\t\t$2",	
+			"\t};",
 			"};",
 			""
 		]
