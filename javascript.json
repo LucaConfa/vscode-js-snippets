@@ -23,6 +23,17 @@
 		],
 		"description": "Log output to console"
 	},
+	"Create a middleware": {
+		"prefix": "middleware",
+		"body": [
+			"module.exports = ($1) => {",
+			"  return (req, res, next) => {",
+			"    $2",	
+			"  };",
+			"};",
+			""
+		]
+	},
 	"Console log Inspect Element": {
 		"prefix": "cins",
 		"body": [
