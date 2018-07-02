@@ -37,13 +37,13 @@
 	"Create a Promise": {
 		"prefix": "prom",
 		"body": [
-			"\t\treturn new Promise(async (resolve, reject) => {",
-			"\t\t\t  try {",
-			"\t\t\t\t$2",	
-			"\t\t\t} catch (error) {",
-			"\t\t\t\treject(error);",
-			"\t\t\t};",
-			""
+			"return new Promise(async (resolve, reject) => {",
+			"\ttry {",
+			"\t\t$2",	
+			"\t} catch (error) {",
+			"\t\treject(error);",
+			"\t}",
+			"});"
 		]
 	},
 	"Console log Inspect Element": {
